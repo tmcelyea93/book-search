@@ -20,10 +20,10 @@ const TypeDefs = gql `
         savedBooks: [Book]
     }
     type Book {
-        bookId: String
+        bookId: ID!
         authors: [String]
         description: String
-        title: String
+        title: String!
         image: String
         link: String
     }
